@@ -1,0 +1,164 @@
+.hello
+{
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    left: 40%;
+
+}
+.congrats
+{
+    padding-left: 75%;
+    padding-top: 1%;
+
+}
+.header
+{
+    background-color: teal;
+    height: 170px;
+}
+
+#me
+{
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.homepage
+{
+    position: relative;
+    top: 5px;
+    font-size: 35px;
+    font-family: "book antiqua";
+}
+.welcome
+{
+    position: relative;
+    top: 25px;
+    font-family: "book antiqua";
+}
+main
+{
+    background: linear-gradient(wheat, azure, tan);
+    padding: 40px;
+    height: 400px;
+    display: flex;
+    border: solid saddleBrown 3px;
+}
+footer
+{
+    background: linear-gradient(teal, azure);
+    background-color: #000000;
+    padding: 4px;
+    text-align: center;
+    height: 42px;
+}
+.thanks
+{
+    position: relative;
+    top: 14px;
+    font-family: "courier";
+    font-weight: 400;
+}
+.username
+{
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+    color: cornSilk;
+}
+#name
+{
+    background-color: aliceblue;
+}
+#cong
+{
+    color: cornSilk;
+}
+.aboutme
+{
+    margin-left: 10px;
+    margin-top: 2px;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    width: 50%;
+    height: 100%;
+    border: solid saddleBrown 3px;
+    background: linear-gradient(#d5bE93, azure, #d5bE93);
+    padding-left: 10px;
+    padding-top: 30px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+#soprano
+{
+    height: 120px;
+
+    border-radius: 0 140px 140px 0;
+    border: solid saddleBrown 3px;
+    position: relative;
+    top: 25px;
+
+
+}
+#concert
+{
+    height: 127px;
+
+    border-radius: 0 140px 140px 0;
+    border: solid saddleBrown 3px;
+    position: relative;
+    top: 15px;
+
+}
+#bullet
+{
+
+    text-align: right;
+    display: inline;
+    font-family: "book antiqua";
+    border: solid saddleBrown 3px;
+    border-radius: 0 30px 30px 0;
+    position: relative;
+    top: 10px;
+    background: #d5bE93;
+}
+.ukes
+{
+
+    width: 250px;
+    position: relative;
+    left: 80px;
+
+
+}
+.buttons
+{
+
+    width: 150px;
+
+}
+.sop
+{
+    margin-left: 65%;
+    margin-top: 65%;
+    position: relative;
+    left: 90px;
+    bottom: 48px;
+    background: #d5bE93;
+    height: 120px;
+    font-family: "book antiqua";
+}
+.con
+{
+    margin-left: 65%;
+    position: relative;
+    left: 90px;
+    bottom: 130px;
+    background: #d5bE93;
+    height: 125px;
+    font-family: "book antiqua";
+}

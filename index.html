@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+    <header class="header">
+    <div class="congrats">
+        <form onsubmit="return false;">
+            <input type="text" id="name" autocomplete="off" placeholder="what is your name?">
+            <input type="submit" value="Enter">
+        </form>
+        <p id="cong"></p>
+        <p class="username"><b id="cong2"></b></p>
+        <p class="emoji"></p>
+
+        <script>
+            document.querySelector("form").addEventListener("submit", function(e) {
+                let cong = document.querySelector("#name").value;
+                let emo = String.fromCodePoint("0x1F60E")
+                document.querySelector("#cong").innerHTML = "Thank You For Visiting My Page"
+                document.querySelector("#cong2").innerHTML = cong.toUpperCase() + emo + emo;
+            });
+            e.preventDefault();
+        </script>
+    </div>
+
+    <div class="hello">
+        <h1 class="welcome"><strong>Welcome To My</strong></h1>
+        <br>
+        <h2 class="homepage"><strong>HOMEPAGE</strong></h2>
+    </div>
+    <div class="photo">
+        <img id="me" src="me.jpg" alt="my photo">
+    </div>
+    </header>
+    <main>
+
+        <div style="order: 3;" class="ukes">
+
+         <h5 id="bullet">My Ukulele Bullets</h5>
+            <img id="soprano" src="soprano.jpg" alt="my photo">
+            <br>
+             <br>
+            <img id="concert" src="concert.jpg" alt="my photo">
+
+            <script>
+            function exp()
+            {
+                alert("merhaba");
+            }
+
+            </script>
+        </div>
+          <div style="order: 2;" class="buttons">
+                <form onsubmit="return false;">
+                <button  class="sop"><b>I<br>N<br>F<br>O</b></button>
+                <br><br><br><br><br>
+                <button class="con"><b>I<br>N<br>F<br>O</b></button>
+                </form>
+                <script>
+                 let soprano = document.querySelector('.sop')
+                       soprano.addEventListener('click', function() {
+                        alert("This is the first ukulele I bought and its type is soprano. It is the best type for traditional ukulele sound and good alternative for beginners.")
+                 });
+
+                 let concert = document.querySelector('.con')
+                       concert.addEventListener('click', function() {
+                        alert("This is the second ukulele I bought and its type is concert.This type is one step larger in size than the soprano so has larger scale of sound.")
+                 });
+
+                </script>
+        </div>
+        <div style="order: 1;" class="aboutme">
+
+         <p>
+            My name is <strong>Cankat Güven</strong>. I live in Turkey and was born in Konya, a city in Turkey. I'm 35 years old and civil engineer. I graduated from Istanbul Technical University.
+         </p>
+         <p>
+            In my career i have been some international projects such as Ethan Cracker Unit in Turkmenistan (conducted by Hyundai) and Zubair Gas Project in Iraq (conducted by General Electric).
+         </p>
+         <p>
+            In my social life, i interested music and play ukulele. Also i follow science literature, astrophysics and economy.
+         </p>
+        </div>
+    </main>
+    <footer>
+       <p class="thanks">Special Thanks To <i>HarvardX, David J. Malan, Brian Yu, Doug Lloyd</i> for inspiring.</p>
+    </footer>
+    </body>
+</html>
